@@ -1,0 +1,90 @@
+/* Removes the white border around the page */
+body
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* #region Navbar */
+nav
+{
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  background-color: #9ae7ff;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden;
+}
+  
+/* The navigation menu links */
+nav a.page
+{
+  /* centering the button */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+
+  /* text */
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+
+  /*  */
+  padding: 6px 10px 6px 10px;
+  background-color: #d9d9d9;
+  color: #000;
+  
+  /* button border (not working rn) */
+  border-style: solid;
+  border: #000;
+  border-width: medium;
+}
+
+nav a.page:hover
+{
+  background-color: #909090;
+  color: #ffffff;
+}
+
+nav a.active
+{
+  background-color: #00a2ff;
+}
+
+nav a.profilePic img
+{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 178px;
+}
+
+nav a.profilePic:hover
+{
+  background-color: #909090;
+}
+
+nav a.settings
+{
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 50px;
+}
+
+nav a.settings img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+}
+
+/* #endregion Navbar */
