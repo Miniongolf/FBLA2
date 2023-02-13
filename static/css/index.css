@@ -28,7 +28,7 @@ nav a.page
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 70%;
 
   /* text */
   text-align: center;
@@ -36,7 +36,7 @@ nav a.page
   font-size: 25px;
 
   /*  */
-  padding: 6px 10px 6px 10px;
+  padding: 6px 10px;
   background-color: #d9d9d9;
   color: #000;
   
@@ -88,3 +88,28 @@ nav a.settings img
 }
 
 /* #endregion Navbar */
+
+.main
+{
+  margin-left: 280px; /* Same as the width of the sidebar */
+  padding: 25px;
+}
+
+/* #region Event cards */
+
+.eventCard
+{
+  background-color: #e0e0e0;
+  border: #000;
+  border-width: medium;
+  border-style: solid;
+  padding: 25px;
+  margin: 25px;
+}
+
+.eventPhoto
+{
+  width: 100%;
+}
+
+/* #endregion */
