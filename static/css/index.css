@@ -1,4 +1,4 @@
-/* Removes the white border around the page */
+/* Removes the white frame around the page */
 body
 {
   margin: 0px;
@@ -19,6 +19,8 @@ nav
   background-color: #9ae7ff;
   overflow-x: hidden; /* Disable horizontal scroll */
   overflow-y: hidden;
+  border-right-width: light;
+  border-right-style: solid;
 }
   
 /* The navigation menu links */
@@ -41,9 +43,7 @@ nav a.page
   color: #000;
   
   /* button border (not working rn) */
-  border-style: solid;
-  border: #000;
-  border-width: medium;
+  border: 2px solid black;
 }
 
 nav a.page:hover
@@ -100,11 +100,9 @@ nav a.settings img
 .eventCard
 {
   background-color: #e0e0e0;
-  border: #000;
-  border-width: medium;
-  border-style: solid;
+  border: 2px solid black;
   padding: 25px;
-  margin: 25px;
+  margin: 15px;
 }
 
 .eventPhoto
