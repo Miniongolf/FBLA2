@@ -96,18 +96,47 @@ nav a.settings img
 }
 
 /* #region Event cards */
-
 .eventCard
 {
   background-color: #e0e0e0;
   border: 2px solid black;
   padding: 25px;
   margin: 15px;
+  position: relative;
 }
+
+.eventCard
+{
+  color: #000;
+  text-decoration: none;
+}
+
+a.eventCard :link {text-decoration: none; color: #000;}
+a.eventCard :visited {text-decoration: none; color: #000;}
+a.eventCard :hover {text-decoration: none; color: #000;}
+a.eventCard :active {text-decoration: none; color: #000;}
 
 .eventPhoto
 {
   width: 100%;
+}
+
+.eventInfo
+{
+  margin-top: 25px;
+}
+
+.personCount
+{
+  position: relative;
+  display: block;
+  float: right;
+}
+
+.personCount img
+{
+  height: 25px;
+  width: 25px;
 }
 
 /* #endregion */
